@@ -54,7 +54,7 @@ with open("Blade_Patches.csv", newline='') as csvfile:
     
     
 # load the dataset
-df = pandas.read_csv("/content/drive/MyDrive/musicnet_metadata.csv", delimiter=',')
+df = pandas.read_csv("Blade_Patches.csv", delimiter=',')
 print ("1")
 # split into input (X) and output (y) variables
 X = df.iloc[:1000,:]
